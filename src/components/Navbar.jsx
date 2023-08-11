@@ -5,22 +5,20 @@ const Navbar = () => {
     <div className="h-32 bg-gray-300 flex-row justify-between items-center">
     
 
-    <ul className="uppercase flex">
-   <li> logo</li>
-   <li> whtsapp</li>
-   <li>email</li>
-   <li>
-        <ul>
-            <li>fb</li>
-            <li>insta</li>
-            <li>in</li>
-        </ul>
+    <div className="flex flex-row justify-between items-center">
+          <div className="basic-1/4"> logo</div>
+          <div className="basic-1/4"> whtsapp</div>
+          <div className="basic-1/4">email</div>
+          <div className="basic-1/4 flex flex-row justify-between items-center">
+            <div className="basic-1/3 ">fb</div>
+            <div className="basic-1/3">insta</div>
+            <div className="basic-1/3">in </div>
+          </div>
 
-   </li>
-
-    </ul>
+   </div>
 
     </div>
+
   )
 }
 
